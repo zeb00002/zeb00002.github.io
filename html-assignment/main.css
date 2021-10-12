@@ -3,13 +3,11 @@ body {
     font-family: cursive;
 }
 
-header {
+header,footer {
     background-color: cadetblue;
 }
 
-footer {
-    background-color: cadetblue;
-}
+
 
 .site-title {
     color:green;
