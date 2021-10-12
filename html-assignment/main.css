@@ -23,6 +23,6 @@ ul {
    list-style-type: square;
 }
 
-ul:nth-child(odd) {
-    background:black ;
+li:nth-child(odd) {
+    background-color:darkgray ;
 }
