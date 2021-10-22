@@ -1,3 +1,32 @@
 body {
     background-color: #aad4cf;
+    margin: 0;
+    padding:0;
 }
+
+.widefish  {
+    background-image: url('images/lone-starfish-wide.jpg');
+    
+   
+    
+    background-position: right 30px center;
+    width: 1300px;
+    height: 256px;
+    background-repeat: no-repeat;
+    
+
+}
+
+#text {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 50px;
+    font-weight: normal;
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+      
