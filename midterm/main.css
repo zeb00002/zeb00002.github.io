@@ -5,7 +5,6 @@ html {
 }
 header{
     width:auto;
-    height:18rem;
     display:block;
     margin:0 auto;
     
@@ -18,19 +17,12 @@ body{
 }
 
 
-.widefish  {
-    background-image: url('images/lone-starfish-wide.jpg');
-    
-    
-    
-   
-    
-    
-    width: auto;
-    height: 192pt;
-    background-repeat: no-repeat;
-    
 
+.widefish img {
+   
+    width: 760pt;
+    height: 250pt;
+    background-repeat: no-repeat;
 }
 
 #text {
@@ -39,8 +31,9 @@ body{
     font-weight: normal;
     color: white;
     position: absolute;
-    top: 140pt;
-    left: 505pt;
+    top:  135pt;
+    left: 498pt;
+    
     
     
 }
