@@ -104,13 +104,11 @@ a:hover {
     border-right:0; /*last child isn't bordered-right */
 }
 
-.art {
-   text-align:normal;
-    
-}
 
 .art p {
     margin:0 1% 0;
+    
+    font-family:Arial, Helvetica, sans-serif;
     
 }
 
@@ -185,7 +183,7 @@ article {
 
 
 
-button {
+#button {
     background-color: #D4E9E7;
     font-size:10px;
     color: black;
@@ -195,7 +193,7 @@ button {
     margin:1% 0;
 
 }
-button:hover {
+#button:hover {
     color:gold;
 }
 
