@@ -1,83 +1,105 @@
 html {
-    background-color: #aad4cf;
+    background-color: #aad4cf; /*Primary color specified */
     margin:0 190pt;
    
 }
 header{
-    width:auto;
+    
     display:block;
     margin:0 auto;
+    max-width: 1000px; /*Static width added for header */
     
 }
 
 body{
-   
+
+    max-width: 1000px;
     margin:0 auto;
-    background-color:#D4E9E7;
+    background-color:#D4E9E7; /*Secondary color for body specified */
 }
 
+.width {
+    max-width: 1000px;
+}
 
-
-.widefish img {
+.widefish{
+    position: relative;     /*Positioned relative to its normal position */
+    display: inline-block;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.image{
+    width:100%;     /*Image takes all the space available */
+    
+    margin: 0 auto;
    
-    width: 760pt;
-    height: 250pt;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; /*Prevents any repeat */
 }
 
 #text {
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Times New Roman", Times, serif; /*font family of site title text */
     font-size: 40px;
     font-weight: normal;
     color: white;
     position: absolute;
-    top:  135pt;
-    left: 498pt;
+    top:  135pt;  /*used for positioning the site title on specific area of image */
+    left: 310pt;
+   
     
+
     
     
 }
+
 
 .nav {
     
         
         margin: 0 auto;
         padding: 0;
-        width: 750pt;
+        max-width: 1000px;
         background-color: #D4E9E7;
         overflow: auto;
-        text-align:center;
+        text-align:center; /*alligns the text to center */
+        position: relative;
+        
      
       
 }
 .nav li {
     
     text-align:center;
-    border-right: 1px solid black;
+    border-right: 1px solid black; /*adds 1px vertical line on right of each li */
     
     float:left;
-    display: inline;
-    width:180pt;
+    display: inline;  /*displays li in line */
+    width:25%;
     padding: 5px 35px;
     position:relative;
+   
     
 }
 
 .nav a {
-    text-decoration: none;
+    text-decoration: none; /*removes underline from links */
     color:black;
     float: none;
     font-weight: bold;
     text-align:center;
-    width:750pt; 
+    width:100%; 
+    position: relative;
     
     
 
     
 }
 
+a:hover {
+    color:gold;  /*Links turn gold when hovef over it */
+}
+
 .nav li:last-child {
-    border-right:0;
+    border-right:0; /*last child isn't bordered-right */
 }
 
 .art {
@@ -108,14 +130,14 @@ article {
     margin:0 1% 0;
     width: 95.5%;
     height: 345px;
-    border: 1px solid black;
+    border: 1px solid black; /*border around form added */
     padding:1%;
     
     
 }
 
 #name {
-    width: 99%;
+    width: 99%; /*specifies size of box in form */
     height:30%;
     
     margin: 8px 0;
@@ -165,11 +187,14 @@ button {
     background-color: #D4E9E7;
     font-size:10px;
     color: black;
-    border: 1px solid #555555;
+    border: 1px solid #555555; /*border around the button */
     width: 6%;
     height:33px;
     margin:1% 0;
 
+}
+button:hover {
+    color:gold;
 }
 
 
@@ -177,8 +202,9 @@ button {
 
 footer {
     text-align:right;
-    margin:0 1%;
-    margin-top: 2%;
+    margin:0 auto;
+    margin-top: 2%; /*Positioning footer */
+    max-width: 1000px;
 }
 
 
