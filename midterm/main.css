@@ -42,8 +42,8 @@ body{
     font-weight: normal;
     color: white;
     position: absolute;
-    top:  135pt;  /*used for positioning the site title on specific area of image */
-    left: 310pt;
+    top:  130pt;  /*used for positioning the site title on specific area of image */
+    left: 300pt;
    
     
 
@@ -84,10 +84,12 @@ body{
     text-decoration: none; /*removes underline from links */
     color:black;
     float: none;
-    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
     text-align:center;
     width:100%; 
     position: relative;
+    font-size: 20px;
     
     
 
@@ -202,7 +204,7 @@ button:hover {
 
 footer {
     text-align:right;
-    margin:0 auto;
+    margin:0 2%;
     margin-top: 2%; /*Positioning footer */
     max-width: 1000px;
 }
