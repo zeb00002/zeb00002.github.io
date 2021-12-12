@@ -1,0 +1,102 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+        v2.0 | 20110126
+        License: none (public domain)
+        */
+
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, embed, 
+        figure, figcaption, footer, header, hgroup, 
+        menu, nav, output, ruby, section, summary,
+        time, mark, audio, video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+        /* HTML5 display-role reset for older browsers */
+        article, aside, details, figcaption, figure, 
+        footer, header, hgroup, menu, nav, section {
+            display: block;
+        }
+        body {
+            line-height: 1;
+        }
+        ol, ul {
+            list-style: none;
+        }
+        blockquote, q {
+            quotes: none;
+        }
+        blockquote:before, blockquote:after,
+        q:before, q:after {
+            content: '';
+            content: none;
+        }
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        /* ================================= */
+        /* =========== MY STYLES =========== */
+        /* ================================= */
+
+        /* ==== MOBILE-FIRST STYLES ==== */
+        body {
+            background: white;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .nav-bg img {
+            margin:12px 7px;
+        }
+
+
+        .nav-bg a{
+            text-decoration:none ;
+            color:#c78c06;
+        }
+
+        .nav-bg{
+            background-color:#222;
+            width:706px;
+        }
+
+        li{
+            dispay:inline-block;
+            text-align: center;
+            margin-top: 25px;
+            
+        }
+
+      
+   
+   
+
+        /* ==== This just sets the width for accuracy to the mock-up ==== */
+        /* Don't put anything else in this media query! */
+
+        @media screen and (min-width: 760px){
+            .container {
+                width: 706px;
+            }
+        }
+
+        /* ==== DESKTOP STYLES ==== */
+
+        @media screen and (min-width: 1200px){
+            .container {
+                width: 1200px;
+            }
+        }
+

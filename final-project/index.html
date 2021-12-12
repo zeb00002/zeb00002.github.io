@@ -4,75 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <header> <!--Header-->
-        <nav class="menu"><!--Navigation tags-->
-            <img src="images/logo.png" alt="logo">
+    <header>
+
+    
+        <div class="nav-bg">      
+        <nav><!--Navigation tags-->
+            <img  src="images/logo.png">
             <ul>
-                <li><a href="#">Home</a></li>
+                <li class="home"><a href="#">Home</a></li>  
                 <li><a href="#">About</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Team</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
+            <forum>
+                <input type="text" id="search" name="search" placeholder="Search">
+                <button>
+                
+                    &#x1F50D; <!--Ascii code for search icon-->
+    
+                </button>
+            </forum>
          </nav>
-         <forum>
-            <input class="search-bar" type="text" name="text" placeholder="Search">
-            <button>
+        </div>  
+         
+    
+        <div class="Intro">
             
-                &#x1F50D; <!--Ascii code for search icon-->
 
-            </button>
-        </forum>
-       
-        <section class="BG-Image">
-            <img src="images/main-banner.jpg" alt="Banner">
-
-            <section class="Welcome-Part">
+            <div class="Welcome-Part">
                 <h1>Welcome to Three Star Media</h1>
                 <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque quos sit deleniti, fugit mollitia blanditiis ipsa repellat doloremque laborum explicabo.
                 </p>
-                <button>Connect with us &#9654;</button> <!--right arrow icon-->
-            </section>
+                <button>Connect with us <span class="icon"> &#9654;</span></button> <!--right arrow icon-->
+            </div><!--welcome end-->
 
-        </section>
-      
-
+        </div> <!--intro end-->
+        
+   
+       
     </header>
     <main>
             <!--SECTION AREA-->
+            <div class="container">
             <section class="about-section">
             
                 <img src="images/about-us.jpg" alt="Table Tennis">
             
-            <h1>About Us</h1>
+            <h2>About Us</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto aliquam deserunt nisi, fugiat amet repudiandae ad totam, quas doloremque quo est a. Doloremque, modi facere voluptatum qui deserunt quasi placeat.</p>
-        </section>
+        </section> <!--about section end-->
 
         <section class="services-section">
-            <h1>Our Services</h1>
+            <h2>Our Services</h2>
            
                 <img src="images/digital.jpg" alt="">
             
             <h2>Digital Transformation</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nemo animi cupiditate quia. Dignissimos harum, reprehenderit provident quas ea ipsum voluptate porro pariatur, eum culpa non odit omnis fuga ipsam.</p>
             <button>Digital Plans &#9654;</button>
-        </section>
+        </section><!--end sec services-->
            
 
         <section class="marketing-section">
-            <h1>Marketing</h1>
+            <h2>Marketing</h2>
            
                 <img src="images/digital.jpg" alt="">
            
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nemo animi cupiditate quia. Dignissimos harum, reprehenderit provident quas ea ipsum voluptate porro pariatur, eum culpa non odit omnis fuga ipsam.</p>
             <button>Marketing Plans &#9654;</button>
-        </section>
+        </section><!--end sec marketing-->
 
         <section class="video-section">
-            <h1>Video Production</h1>
+            <h2>Video Production</h2>
             
                 <img src="images/video.jpg" alt="video">
            
@@ -80,10 +88,10 @@
             <button>Video Plans &#9654;</button>
        
 
-         </section>
+        </section> <!--end sec video-->
 
          <section class="web-section">
-            <h1>Web Development</h1>
+            <h2>Web Development</h2>
             
                 <img src="images/web.jpg" alt="video">
             
@@ -91,43 +99,43 @@
             <button>Web Plans &#9654;</button>
         
 
-         </section>
+         </section><!--end sec web-->
 
          <section class="print-section">
-            <h1>Print</h1>
+            <h2>Print</h2>
             
                 <img src="images/print.jpg" alt="video">
             
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nemo animi cupiditate quia. Dignissimos harum, reprehenderit provident quas ea ipsum voluptate porro pariatur, eum culpa non odit omnis fuga ipsam.</p>
             <button>Print Plans &#9654;</button>
         
-         </section>
+         </section> <!--end sec print-->
 
          <section class="our-vision">
-            <h1>Our Vision</h1>
+            <h2>Our Vision</h2>
             
                 <img src="images/vision.jpg" alt="vision pic">
             
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nemo animi cupiditate quia. Dignissimos harum, reprehenderit provident quas ea ipsum voluptate porro pariatur, eum culpa non odit omnis fuga ipsam.</p>
             <button>Lear More &#9654;</button>
-         </section>
+         </section><!--end sec vision-->
 
          <section class="our-team">
-         <h1>Our Team</h1>
+            <h2>Our Team</h2>
          
              <img src="images/john.jpg" alt="John's Pic">
-         <h1>John Doe</h1>
-         <h2>CEO and Onwner</h2>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nemo animi cupiditate quia. Dignissimos harum, reprehenderit provident quas ea ipsum voluptate porro pariatur, eum culpa non odit omnis fuga ipsam.</p>
+            <h2>John Doe</h2>
+            <h2>CEO and Onwner</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nemo animi cupiditate quia. Dignissimos harum, reprehenderit provident quas ea ipsum voluptate porro pariatur, eum culpa non odit omnis fuga ipsam.</p>
          
-         <img src="images/bob.jpg" alt="Bob's picture">
-         <h1>Bob Rite</h1>
-         <h2>CFO and Co-onwner</h2>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nemo animi cupiditate quia. Dignissimos harum, reprehenderit provident quas ea ipsum voluptate porro pariatur, eum culpa non odit omnis fuga ipsam.</p>
-      </section>
+            <img src="images/bob.jpg" alt="Bob's picture">
+            <h2>Bob Rite</h2>
+            <h2>CFO and Co-onwner</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nemo animi cupiditate quia. Dignissimos harum, reprehenderit provident quas ea ipsum voluptate porro pariatur, eum culpa non odit omnis fuga ipsam.</p>
+         </section><!--end sec our team-->
 
         <section class="Contact-us">
-            <h1>Contact Us</h1>
+            <h2>Contact Us</h2>
             <h2>Send us a message</h2>
             <form class="formm" action="#"> <!--form for filling-->
                 <label for="fullname">Full name</label><br>
@@ -138,7 +146,7 @@
                 <input type="text" id="message" name="message"><br><br>
                 <input type="submit" value="Send"> <br>
               </form> 
-              <h1>Hours of operation</h1>
+              <h2>Hours of operation</h12
               <table class="tab-el"> <!--Table-->
                   <tr>
                       <th>Days</th>
@@ -154,16 +162,17 @@
                   </tr>
               </table>
 
+            </section> <!--end sec contact-->
 
-
-        </section>
+        
 
         <section class="location">
-            <h1>
+            <h2>
                 Location 
-            </h1>   <!--Below is html link to maps location-->
+            </h2>   <!--Below is html link to maps location-->
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2804.08154116223!2d-75.75979818446746!3d45.347166229099805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce071f3025ba19%3A0x4e8b1cef296bbd38!2sAlgonquin%20College%20-%20Building%20B!5e0!3m2!1sen!2sca!4v1638219734206!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </section>
+        </section><!--end sec location-->
+    </div> <!--end container-->
     </main>
     <footer>
          &copy; Copyright Three Star Media,2020 <br> <!--copyright icon-->
