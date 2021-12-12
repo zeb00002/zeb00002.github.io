@@ -59,6 +59,7 @@
         .container {
             width: 100%;
             margin: 0 auto;
+            
         }
         .home a{
             color:#222;
@@ -112,7 +113,10 @@
         }
 
         .intro {
-            background:url("images/main-banner.jpg")
+            background:url("images/main-banner.jpg");
+            background-size:cover;                      /* <------ */
+            background-repeat:no-repeat;
+            background-position:center center;
            
             
         }
@@ -120,6 +124,7 @@
             background:#222;
             opacity:0.7;
             max-width:760px;
+            padding:1rem 1rem;
             
         }
       
@@ -134,6 +139,7 @@
 
             
         }
+       
 
         .welcome p {
             color:white;
@@ -148,8 +154,9 @@
            
             font-size:1.5rem;
             margin-left:1rem;
-            padding:35px 18px;
+            padding:27px 35px;
             text-align:center;
+            border:none;
             
         }
         .welcome .icon{
@@ -162,24 +169,220 @@
         .about{
             background:#ffe6ac;
             padding:1rem 1rem;
-            width:720px;
+
+            
             
         }
 
         .about img {
-            width:710px;
+            
+            width: 100%;
+            object-fit: cover; /*responsive image*/
+            object-position: bottom;
+              
         }
 
         .about h2{
-           margin-top:2rem;
+          
            font-size: 3rem;
            font-weight:bold;
+           margin-top:2rem;
         }
-        .about p{
+        .about h2,p{
+            padding:1rem 1rem;
+            color:black;
+        }
+
+        .services{
+            padding:1rem 1rem;
+            max-width:760px;
+        }
+        .services img{
+            width: 100%;
+            object-fit: cover; /*responsive image*/
+            object-position: bottom;
+              
+        }
+        .service-2{
             margin-top:2rem;
+            font-size: 3rem;
+            font-weight:bold;
+        }
+        
+        .services h2{
+            margin-top:2rem;
+            font-size: 2.5rem;
+            font-weight:bold;
+            padding-bottom: 1rem;
+        }
+
+        .digital{
+            background:#ffe6ac;
+            margin-bottom:1rem;
+           
+           
             
 
         }
+        .digital h2{
+            font-size:2rem;
+        }
+        .digital p{
+            font-size:0.9rem;
+            color:black;
+        }
+        .digital h2,p{
+            padding:0.5rem 1rem;
+            color:black;
+        }
+        .digital button{
+            background-color:black;
+            margin-top:1rem;
+            color:white;
+           
+            font-size:1.5rem;
+            margin-left:1rem;
+            padding:27px 35px;
+            text-align:center;
+            border:none;
+
+        }
+
+        .market{
+            padding-bottom: 1rem;
+            margin-bottom: 1rem;
+            background: #ffe6ac;
+            
+
+        }
+        .market img{
+            background:black;
+            padding-left:1.5rem;
+            padding-right:1.5rem;
+            
+        }
+        .market h2,p{
+            padding:0.5rem 1rem;
+            color:black;
+        }
+        .market button{
+            background-color:black;
+            margin-top:1rem;
+            color:white;
+           
+            font-size:1.5rem;
+            margin-left:1rem;
+            padding:27px 35px;
+            text-align:center;
+            border:none;
+
+        }
+
+        .video{
+            background:#ffe6ac;
+            margin-bottom:1rem;
+            padding-bottom:1rem;
+        }
+
+        .video h2,p{
+            padding:0.5rem 1rem;
+            color:black;
+        }
+        .video button{
+            background-color:black;
+            margin-top:1rem;
+            color:white;
+           
+            font-size:1.5rem;
+            margin-left:1rem;
+            padding:27px 35px;
+            text-align:center;
+            border:none;
+
+        }
+
+        .web{
+            background:#ffe6ac;
+            margin-bottom:1rem;
+            padding-bottom:1rem;
+        }
+
+        .web h2,p{
+            padding:0.5rem 1rem;
+            color:black;
+        }
+        .web button{
+            background-color:black;
+            margin-top:1rem;
+            color:white;
+           
+            font-size:1.5rem;
+            margin-left:1rem;
+            padding:27px 35px;
+            text-align:center;
+            border:none;
+
+        }
+        .print{
+            background:#ffe6ac;
+            margin-bottom:1rem;
+            padding-bottom:1rem;
+        }
+
+        .print h2,p{
+            padding:0.5rem 1rem;
+            color:black;
+        }
+        .print button{
+            background-color:black;
+            margin-top:1rem;
+            color:white;
+           
+            font-size:1.5rem;
+            margin-left:1rem;
+            padding:27px 35px;
+            text-align:center;
+            border:none;
+
+        }
+
+        .vision{
+            background-image:url("images/vision.jpg");
+            margin-bottom:1rem;
+            padding-bottom:1rem;
+            background-size:cover;                      /* <------ */
+            background-repeat:no-repeat;
+            background-position:center center;
+
+            
+        }
+        .vision h2,p{
+            padding:0.5rem 1rem;
+          
+            padding-top:2rem;
+        }
+        .vision button{
+            background-color: #0d153d;
+            margin-top:1rem;
+            color:white;
+            font-size:1.5rem;
+            margin-left:1rem;
+            padding:27px 35px;
+            text-align:center;
+            border: 1px solid #c58b22;
+
+        }
+        .vision h2{
+            color: white;
+        }
+        .vision p{
+            color:white;
+        }
+
+
+
+
+
 
       
 
