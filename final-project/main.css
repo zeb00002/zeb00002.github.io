@@ -56,28 +56,133 @@
             background: white;
             font-family: 'Open Sans', sans-serif;
         }
-
-        .nav-bg img {
-            margin:12px 7px;
+        .container {
+            width: 100%;
+            margin: 0 auto;
+        }
+        .home a{
+            color:#222;
+            background:#c58b22;
         }
 
-
-        .nav-bg a{
-            text-decoration:none ;
-            color:#c78c06;
+        .nav-bg {
+            background: #222;
+            color: #c58b22;
+            padding: 14px; 
         }
 
-        .nav-bg{
-            background-color:#222;
-            width:706px;
-        }
+       
+        
 
-        li{
-            dispay:inline-block;
+
+
+        nav ul li a {
+            text-decoration: none;
+            color: #c58b22;
+            font-size: 18px;
+            display: block;
             text-align: center;
-            margin-top: 25px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .logo{
+            background:#c58b22;
+            width:auto;
+        }
+        .nav-bg form{
+            display:flex;
+
+        }
+       
+      
+
+     
+        #search{
+            width:82vw;
+            padding:14px;
             
         }
+        
+       form button{
+            border:1px #c58b22;
+            padding:14px;
+            color:#c58b22;
+            
+        }
+
+        .intro {
+            background:url("images/main-banner.jpg")
+           
+            
+        }
+        .welcome{
+            background:#222;
+            opacity:0.7;
+            max-width:760px;
+            
+        }
+      
+        .welcome h1{
+           
+            color:white;
+            font-size:4.5rem;
+            font-weight:bold;
+            margin-left:1rem;
+            margin-right:25px;
+            padding-top:4rem;
+
+            
+        }
+
+        .welcome p {
+            color:white;
+            font-size:1rem;
+            margin-left:1rem;
+            margin-right:4rem;
+            padding-top:3rem;
+        }
+        .welcome button {
+            background-color:#c58b22;
+            margin-top:1rem;
+           
+            font-size:1.5rem;
+            margin-left:1rem;
+            padding:35px 18px;
+            text-align:center;
+            
+        }
+        .welcome .icon{
+            margin-left:1rem;
+           
+        }  
+
+        
+
+        .about{
+            background:#ffe6ac;
+            padding:1rem 1rem;
+            width:720px;
+            
+        }
+
+        .about img {
+            width:710px;
+        }
+
+        .about h2{
+           margin-top:2rem;
+           font-size: 3rem;
+           font-weight:bold;
+        }
+        .about p{
+            margin-top:2rem;
+            
+
+        }
+
+      
+
 
       
    
@@ -88,7 +193,7 @@
 
         @media screen and (min-width: 760px){
             .container {
-                width: 706px;
+                width: 760px;
             }
         }
 
