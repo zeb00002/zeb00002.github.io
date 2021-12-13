@@ -71,6 +71,11 @@
             color: #c58b22;
             padding: 14px; 
         }
+        header{
+            width: 100%;
+            margin: 0 auto;
+            
+        }
 
        
         
@@ -117,6 +122,8 @@
             background-size:cover;                      /* <------ */
             background-repeat:no-repeat;
             background-position:center center;
+           
+
            
             
         }
@@ -245,6 +252,8 @@
             padding:27px 35px;
             text-align:center;
             border:none;
+           margin-bottom:1rem;
+            
 
         }
 
@@ -256,9 +265,11 @@
 
         }
         .market img{
-            background:black;
-            padding-left:1.5rem;
-            padding-right:1.5rem;
+            
+            
+            width:100%;
+            object-fit: cover; /*responsive image*/
+            object-position: bottom;
             
         }
         .market h2,p{
@@ -378,6 +389,157 @@
         .vision p{
             color:white;
         }
+
+        .team{
+            padding:1rem 1rem;
+            max-width:760px;
+            
+            
+        }
+        
+        
+        .team img{
+            width: 100%;
+            object-fit: cover; /*responsive image*/
+            object-position: bottom;
+        }
+
+        .team h2{
+            color:black;
+            font-size: 2.5rem;
+            font-weight: bold;
+            padding-bottom:1rem;
+        }
+
+        .team h3{
+            font-size:2rem;
+            font-weight: bold;
+        }
+        .team h4{
+            font-size:1.5rem;
+            font-weight: bold;
+        }
+
+        .team h3{
+            padding:0.5rem 1rem;
+            background:#ffe6ac;
+
+        }
+        .team h4{
+            padding:0.5rem 1rem;
+            background:#ffe6ac;
+
+        }
+        .team p{
+            padding:0.5rem 1rem;
+            background:#ffe6ac;
+
+        }
+        .team p{
+            padding-bottom:1rem;
+            margin-bottom:1rem;
+        }
+
+        .contact {
+            padding:1rem 1rem;
+            max-width:760px;
+            
+            
+        }
+        .contact h2{
+            font-size:2rem;
+            font-weight: bold;
+            margin-bottom:1rem;
+        }
+
+        .msg h2{
+            font-size:1.5rem;
+        }
+
+      
+
+        .msg input[type=text]{
+            
+            max-width:760px;
+            width:94vw;
+            height:1.5rem;
+            
+        }
+
+        #fullname{
+            margin-top:0.5rem;
+            margin-bottom:0.5rem;
+        }
+
+        #email{
+            margin-top:0.5rem;
+            margin-bottom:0.5rem;
+        }
+        #message{
+            margin-top:0.5rem;
+            margin-bottom:0.5rem;
+            height:7rem;
+        }
+
+        #submit{
+            background:#222;
+            color:#c58b22;
+            padding:1px 4px;
+            font-size:1.3rem;
+            margin-bottom:1rem;
+        }
+        .hrs {
+            max-width:760px;
+        }
+        .hrs h2{
+            font-size:1.5rem;
+            font-weight:bold;
+        }
+        table{
+            border-collapse: collapse;
+            width:94vw;
+            max-width:760px;
+        }
+
+        table,td,th{
+            border:1px solid black;
+            text-align:left;
+            margin-bottom:1rem;
+        }
+
+        th{
+            text-align:center;
+            background:#ffe6ac;
+            height:2rem;
+            padding-top:0.7rem;
+            font-weight:500;
+        }
+
+        td{
+            padding-left: 0.5rem;
+            height:2rem;
+            padding-top:0.9rem;
+            font-size:0.9rem;
+
+        }
+        iframe {
+            width:95vw;
+        }
+        footer{
+            padding-top:1rem;
+            background:#222;
+            margin-bottom:1rem;
+            padding-bottom:1rem;
+            color:#c58b22;
+            padding-left:1rem;
+        }
+
+        footer a{
+            
+            color:#c58b22;
+        }
+
+       
 
 
 
