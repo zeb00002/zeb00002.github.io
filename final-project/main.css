@@ -128,10 +128,12 @@
             
         }
         .welcome{
-            background:#222;
-            opacity:0.7;
+            background:#22222290;
+           
             max-width:760px;
             padding:1rem 1rem;
+            
+            
             
         }
       
@@ -410,6 +412,13 @@
             font-weight: bold;
             padding-bottom:1rem;
         }
+        .hr{
+            background-color:#c58b22;
+            
+            height:3px;
+           
+            margin:0 1rem;
+        }
 
         .team h3{
             font-size:2rem;
@@ -418,6 +427,12 @@
         .team h4{
             font-size:1.5rem;
             font-weight: bold;
+        }
+        .bteam{
+            background-color:#ffe6ac;
+        }
+        .cteam{
+            background-color:#ffe6ac;
         }
 
         .team h3{
@@ -560,6 +575,13 @@
             .container {
                 width: 760px;
             }
+            
+                
+                
+
+
+
+
         }
 
         /* ==== DESKTOP STYLES ==== */
