@@ -3,592 +3,1018 @@
         License: none (public domain)
         */
 
-        html, body, div, span, applet, object, iframe,
-        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-        a, abbr, acronym, address, big, cite, code,
-        del, dfn, em, img, ins, kbd, q, s, samp,
-        small, strike, strong, sub, sup, tt, var,
-        b, u, i, center,
-        dl, dt, dd, ol, ul, li,
-        fieldset, form, label, legend,
-        table, caption, tbody, tfoot, thead, tr, th, td,
-        article, aside, canvas, details, embed, 
-        figure, figcaption, footer, header, hgroup, 
-        menu, nav, output, ruby, section, summary,
-        time, mark, audio, video {
-            margin: 0;
-            padding: 0;
-            border: 0;
-            font-size: 100%;
-            font: inherit;
-            vertical-align: baseline;
-        }
-        /* HTML5 display-role reset for older browsers */
-        article, aside, details, figcaption, figure, 
-        footer, header, hgroup, menu, nav, section {
-            display: block;
-        }
-        body {
-            line-height: 1;
-        }
-        ol, ul {
-            list-style: none;
-        }
-        blockquote, q {
-            quotes: none;
-        }
-        blockquote:before, blockquote:after,
-        q:before, q:after {
-            content: '';
-            content: none;
-        }
-        table {
-            border-collapse: collapse;
-            border-spacing: 0;
-        }
-
-        /* ================================= */
-        /* =========== MY STYLES =========== */
-        /* ================================= */
-
-        /* ==== MOBILE-FIRST STYLES ==== */
-        body {
-            background: white;
-            font-family: 'Open Sans', sans-serif;
-        }
-        .container {
-            width: 100%;
-            margin: 0 auto;
-            
-        }
-        .home a{
-            color:#222;
-            background:#c58b22;
-        }
-
-        .nav-bg {
-            background: #222;
-            color: #c58b22;
-            padding: 14px; 
-        }
-        header{
-            width: 100%;
-            margin: 0 auto;
-            
-        }
-
-       
-        
-
-
-
-        nav ul li a {
-            text-decoration: none;
-            color: #c58b22;
-            font-size: 18px;
-            display: block;
-            text-align: center;
-            padding-top: 20px;
-            padding-bottom: 20px;
-        }
-
-        .logo{
-            background:#c58b22;
-            width:auto;
-        }
-        .nav-bg form{
-            display:flex;
-
-        }
-       
-      
-
-     
-        #search{
-            width:82vw;
-            padding:14px;
-            
-        }
-        
-       form button{
-            border:1px #c58b22;
-            padding:14px;
-            color:#c58b22;
-            
-        }
-
-        .intro {
-            background:url("images/main-banner.jpg");
-            background-size:cover;                      /* <------ */
-            background-repeat:no-repeat;
-            background-position:center center;
-           
-
-           
-            
-        }
-        .welcome{
-            background:#22222290;
-           
-            max-width:760px;
-            padding:1rem 1rem;
-            
-            
-            
-        }
-      
-        .welcome h1{
-           
-            color:white;
-            font-size:4.5rem;
-            font-weight:bold;
-            margin-left:1rem;
-            margin-right:25px;
-            padding-top:4rem;
-
-            
-        }
-       
-
-        .welcome p {
-            color:white;
-            font-size:1rem;
-            margin-left:1rem;
-            margin-right:4rem;
-            padding-top:3rem;
-        }
-        .welcome button {
-            background-color:#c58b22;
-            margin-top:1rem;
-           
-            font-size:1.5rem;
-            margin-left:1rem;
-            padding:27px 35px;
-            text-align:center;
-            border:none;
-            
-        }
-        .welcome .icon{
-            margin-left:1rem;
-           
-        }  
-
-        
-
-        .about{
-            background:#ffe6ac;
-            padding:1rem 1rem;
-
-            
-            
-        }
-
-        .about img {
-            
-            width: 100%;
-            object-fit: cover; /*responsive image*/
-            object-position: bottom;
-              
-        }
-
-        .about h2{
-          
-           font-size: 3rem;
-           font-weight:bold;
-           margin-top:2rem;
-        }
-        .about h2,p{
-            padding:1rem 1rem;
-            color:black;
-        }
-
-        .services{
-            padding:1rem 1rem;
-            max-width:760px;
-        }
-        .services img{
-            width: 100%;
-            object-fit: cover; /*responsive image*/
-            object-position: bottom;
-              
-        }
-        .service-2{
-            margin-top:2rem;
-            font-size: 3rem;
-            font-weight:bold;
-        }
-        
-        .services h2{
-            margin-top:2rem;
-            font-size: 2.5rem;
-            font-weight:bold;
-            padding-bottom: 1rem;
-        }
-
-        .digital{
-            background:#ffe6ac;
-            margin-bottom:1rem;
-           
-           
-            
-
-        }
-        .digital h2{
-            font-size:2rem;
-        }
-        .digital p{
-            font-size:0.9rem;
-            color:black;
-        }
-        .digital h2,p{
-            padding:0.5rem 1rem;
-            color:black;
-        }
-        .digital button{
-            background-color:black;
-            margin-top:1rem;
-            color:white;
-           
-            font-size:1.5rem;
-            margin-left:1rem;
-            padding:27px 35px;
-            text-align:center;
-            border:none;
-           margin-bottom:1rem;
-            
-
-        }
-
-        .market{
-            padding-bottom: 1rem;
-            margin-bottom: 1rem;
-            background: #ffe6ac;
-            
-
-        }
-        .market img{
-            
-            
-            width:100%;
-            object-fit: cover; /*responsive image*/
-            object-position: bottom;
-            
-        }
-        .market h2,p{
-            padding:0.5rem 1rem;
-            color:black;
-        }
-        .market button{
-            background-color:black;
-            margin-top:1rem;
-            color:white;
-           
-            font-size:1.5rem;
-            margin-left:1rem;
-            padding:27px 35px;
-            text-align:center;
-            border:none;
-
-        }
-
-        .video{
-            background:#ffe6ac;
-            margin-bottom:1rem;
-            padding-bottom:1rem;
-        }
-
-        .video h2,p{
-            padding:0.5rem 1rem;
-            color:black;
-        }
-        .video button{
-            background-color:black;
-            margin-top:1rem;
-            color:white;
-           
-            font-size:1.5rem;
-            margin-left:1rem;
-            padding:27px 35px;
-            text-align:center;
-            border:none;
-
-        }
-
-        .web{
-            background:#ffe6ac;
-            margin-bottom:1rem;
-            padding-bottom:1rem;
-        }
-
-        .web h2,p{
-            padding:0.5rem 1rem;
-            color:black;
-        }
-        .web button{
-            background-color:black;
-            margin-top:1rem;
-            color:white;
-           
-            font-size:1.5rem;
-            margin-left:1rem;
-            padding:27px 35px;
-            text-align:center;
-            border:none;
-
-        }
-        .print{
-            background:#ffe6ac;
-            margin-bottom:1rem;
-            padding-bottom:1rem;
-        }
-
-        .print h2,p{
-            padding:0.5rem 1rem;
-            color:black;
-        }
-        .print button{
-            background-color:black;
-            margin-top:1rem;
-            color:white;
-           
-            font-size:1.5rem;
-            margin-left:1rem;
-            padding:27px 35px;
-            text-align:center;
-            border:none;
-
-        }
-
-        .vision{
-            background-image:url("images/vision.jpg");
-            margin-bottom:1rem;
-            padding-bottom:1rem;
-            background-size:cover;                      /* <------ */
-            background-repeat:no-repeat;
-            background-position:center center;
-
-            
-        }
-        .vision h2,p{
-            padding:0.5rem 1rem;
-          
-            padding-top:2rem;
-        }
-        .vision button{
-            background-color: #0d153d;
-            margin-top:1rem;
-            color:white;
-            font-size:1.5rem;
-            margin-left:1rem;
-            padding:27px 35px;
-            text-align:center;
-            border: 1px solid #c58b22;
-
-        }
-        .vision h2{
-            color: white;
-        }
-        .vision p{
-            color:white;
-        }
-
-        .team{
-            padding:1rem 1rem;
-            max-width:760px;
-            
-            
-        }
-        
-        
-        .team img{
-            width: 100%;
-            object-fit: cover; /*responsive image*/
-            object-position: bottom;
-        }
-
-        .team h2{
-            color:black;
-            font-size: 2.5rem;
-            font-weight: bold;
-            padding-bottom:1rem;
-        }
-        .hr{
-            background-color:#c58b22;
-            
-            height:3px;
-           
-            margin:0 1rem;
-        }
-
-        .team h3{
-            font-size:2rem;
-            font-weight: bold;
-        }
-        .team h4{
-            font-size:1.5rem;
-            font-weight: bold;
-        }
-        .bteam{
-            background-color:#ffe6ac;
-        }
-        .cteam{
-            background-color:#ffe6ac;
-        }
-
-        .team h3{
-            padding:0.5rem 1rem;
-            background:#ffe6ac;
-
-        }
-        .team h4{
-            padding:0.5rem 1rem;
-            background:#ffe6ac;
-
-        }
-        .team p{
-            padding:0.5rem 1rem;
-            background:#ffe6ac;
-
-        }
-        .team p{
-            padding-bottom:1rem;
-            margin-bottom:1rem;
-        }
-
-        .contact {
-            padding:1rem 1rem;
-            max-width:760px;
-            
-            
-        }
-        .contact h2{
-            font-size:2rem;
-            font-weight: bold;
-            margin-bottom:1rem;
-        }
-
-        .msg h2{
-            font-size:1.5rem;
-        }
-
-      
-
-        .msg input[type=text]{
-            
-            max-width:760px;
-            width:94vw;
-            height:1.5rem;
-            
-        }
-
-        #fullname{
-            margin-top:0.5rem;
-            margin-bottom:0.5rem;
-        }
-
-        #email{
-            margin-top:0.5rem;
-            margin-bottom:0.5rem;
-        }
-        #message{
-            margin-top:0.5rem;
-            margin-bottom:0.5rem;
-            height:7rem;
-        }
-
-        #submit{
-            background:#222;
-            color:#c58b22;
-            padding:1px 4px;
-            font-size:1.3rem;
-            margin-bottom:1rem;
-        }
-        .hrs {
-            max-width:760px;
-        }
-        .hrs h2{
-            font-size:1.5rem;
-            font-weight:bold;
-        }
-        table{
-            border-collapse: collapse;
-            width:94vw;
-            max-width:760px;
-        }
-
-        table,td,th{
-            border:1px solid black;
-            text-align:left;
-            margin-bottom:1rem;
-        }
-
-        th{
-            text-align:center;
-            background:#ffe6ac;
-            height:2rem;
-            padding-top:0.7rem;
-            font-weight:500;
-        }
-
-        td{
-            padding-left: 0.5rem;
-            height:2rem;
-            padding-top:0.9rem;
-            font-size:0.9rem;
-
-        }
-        iframe {
-            width:95vw;
-        }
-        footer{
-            padding-top:1rem;
-            background:#222;
-            margin-bottom:1rem;
-            padding-bottom:1rem;
-            color:#c58b22;
-            padding-left:1rem;
-        }
-
-        footer a{
-            
-            color:#c58b22;
-        }
-
-       
-
-
-
-
-
-
-      
-
-
-      
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* ================================= */
+/* =========== MY STYLES =========== */
+/* ================================= */
+
+/* ==== MOBILE-FIRST STYLES ==== */
+body {
+    background: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.home a {
+    color: #222;
+    background: #c58b22;
+}
+
+.nav-bg {
+    background: #222;
+    color: #c58b22;
+    padding: 14px;
+}
+
+header {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+
+
+
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #c58b22;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logo {
+    background: #c58b22;
+    width: auto;
+}
+
+.nav-bg form {
+    display: flex;
+
+}
+
+
+
+
+#search {
+    width: 82vw;
+    padding: 14px;
+
+}
+
+form button {
+    border: 1px #c58b22;
+    padding: 14px;
+    color: #c58b22;
+
+}
+
+.intro {
+    background: url("images/main-banner.jpg");
+    background-size: cover;
+    /* <------ */
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 0;
+
+
+
+
+
+
+}
+
+.welcome {
+    background: #22222290; /*last two specifies opacity*/
+
+
+
+
+
+
+}
+
+.welcome h1 {
+
+    color: white;
+    font-size: 50px;
+
+    font-weight: bold;
+    margin-left: 1rem;
+    margin-right: 4rem;
+    padding-top: 4rem;
+
+
+}
+
+
+.welcome p {
+    color: white;
+    font-size: 16px;
+    margin-left: 1rem;
+    margin-right: 4rem;
+    padding-top: 3rem;
+}
+
+.welcome button {
+    background-color: #c58b22;  /*button bg */
+    margin-top: 1rem;
+
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    padding: 27px 35px;
+    text-align: center;
+    border: none;
+
+}
+
+.welcome .icon {
+    margin-left: 1rem;
+
+}
+
+
+
+.about {
+    background: #ffe6ac; /*makes the bg color y*/
+    padding: 1rem 1rem;
+
+
+
+}
+
+.about img {
+
+    width: 100%;
+    object-fit: cover;
+    /*responsive image*/
+    object-position: bottom; /*makes image position the bottom one*/
+
+}
+
+.about h2 {
+
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.about h2,
+p {
+    padding: 1rem 1rem;
+    color: black;
+}
+
+.services {
+    padding: 1rem 1rem;
+
+}
+
+.services img {
+    width: 100%;
+    object-fit: cover;
+    /*responsive image*/
+    object-position: bottom;
+
+}
+
+.service-2 {
+    margin-top: 2rem;
+    font-size: 3rem;
+    font-weight: bold;/*font becomes bold*/
+}
+
+.services h2 {
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.digital {
+    background: #ffe6ac;
+    margin-bottom: 1rem;
+
+
+
+
+}
+
+.digital h2 {
+    font-size: 2rem;
+}
+
+.digital p {
+    font-size: 0.9rem;
+    color: black;
+}
+
+.digital h2,
+p {
+    padding: 0.5rem 1rem;
+    color: black;
+}
+
+.digital button {
+    background-color: black;
+    margin-top: 1rem;
+    color: white;
+
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    padding: 27px 35px;
+    text-align: center;
+    border: none;
+    margin-bottom: 1rem;
+
+
+}
+
+.market {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    background: #ffe6ac;
+
+
+}
+
+.market img {
+
+
+    width: 100%;
+    object-fit: cover;
+    /*responsive image*/
+    object-position: bottom;
+
+}
+
+.market h2,
+p {
+    padding: 0.5rem 1rem;
+    color: black;
+}
+
+.market button {
+    background-color: black;
+    margin-top: 1rem;
+    color: white;
+
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    padding: 27px 35px;
+    text-align: center;
+    border: none;
+
+}
+
+.video {
+    background: #ffe6ac;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+.video h2,
+p {
+    padding: 0.5rem 1rem;
+    color: black;
+}
+
+.video button {
+    background-color: black;
+    margin-top: 1rem;
+    color: white;
+
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    padding: 27px 35px;
+    text-align: center;
+    border: none; /*removes any bordery*/
+
+}
+
+.web {
+    background: #ffe6ac;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+.web h2,
+p {
+    padding: 0.5rem 1rem;
+    color: black;
+}
+
+.web button {
+    background-color: black;
+    margin-top: 1rem;
+    color: white;
+
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    padding: 27px 35px;
+    text-align: center;
+    border: none;
+
+}
+
+.print {
+    background: #ffe6ac;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+.print h2,
+p {
+    padding: 0.5rem 1rem;
+    color: black;
+}
+
+.print button {
+    background-color: black;
+    margin-top: 1rem;
+    color: white;
+
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    padding: 27px 35px;
+    text-align: center;
+    border: none;
+
+}
+
+.vision {
+    background-image: url("images/vision.jpg"); /*image used as a bf*/
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    background-size: cover;
+    /* <------ */
+    background-repeat: no-repeat; /*image strectches annd doesn't repeat*/
+    background-position: center center;
+
+
+}
+
+.vision h2,
+p {
+    padding: 0.5rem 1rem;
+
+    padding-top: 2rem;
+}
+
+.vision button {
+    background-color: #0d153d;
+    margin-top: 1rem;
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    padding: 27px 35px;
+    text-align: center;
+    border: 1px solid #c58b22;
+
+}
+
+.vision h2 {
+    color: white;
+}
+
+.vision p {
+    color: white;
+}
+
+.team {
+    padding: 1rem 1rem;
+
+
+
+}
+
+
+.team img {
+    width: 100%;
+    object-fit: cover;
+    /*responsive image*/
+    object-position: bottom;
+}
+
+.team h2 {
+    color: black;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.hr {
+    background-color: #c58b22;
+
+    height: 3px;
+
+    margin: 0 1rem;
+}
+
+.team h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.team h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.bteam {
+    background-color: #ffe6ac;
+}
+
+.cteam {
+    background-color: #ffe6ac;
+}
+
+.team h3 {
+    padding: 0.5rem 1rem;
+    background: #ffe6ac;
+
+}
+
+.team h4 {
+    padding: 0.5rem 1rem;
+    background: #ffe6ac;
+
+}
+
+.team p {
+    padding: 0.5rem 1rem;
+    background: #ffe6ac;
+
+}
+
+.team p {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+.contact {
+    padding: 1rem 1rem;
+    max-width: 760px;
+
+
+}
+
+.contact h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.msg h2 {
+    font-size: 1.5rem;
+}
+
+
+
+.msg input[type=text] {
+
+    max-width: 760px;
+    width: 94vw;
+    height: 1.5rem;
+
+}
+
+#fullname {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#email {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#message {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    height: 7rem;
+}
+
+#submit {
+    background: #222;
+    color: #c58b22;
+    padding: 1px 4px;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.hrs {
+    max-width: 760px;
+}
+
+.hrs h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    width: 94vw;
+    max-width: 760px;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+th {
+    text-align: center;
+    background: #ffe6ac; /*table heads becomes colored bg*/
+    height: 2rem;
+    padding-top: 0.7rem;
+    font-weight: 500;
+}
+
+td {
+    padding-left: 0.5rem;
+    height: 2rem;
+    padding-top: 0.9rem;
+    font-size: 0.9rem;
+
+}
+
+iframe {
+    width: 100%;
+}
+
+footer {
+    padding-top: 1rem;
+    background: #222;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    color: #c58b22;
+    padding-left: 1rem;
+}
+
+footer a {
+
+    color: #c58b22;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==== This just sets the width for accuracy to the mock-up ==== */
+/* Don't put anything else in this media query! */
+
+@media only screen and (min-width: 760px) {
+    .container {
+        width: 760px;
+
+    }
    
-   
 
-        /* ==== This just sets the width for accuracy to the mock-up ==== */
-        /* Don't put anything else in this media query! */
+    .bar {
+        background: #222;
+        padding: 2rem 6rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
-        @media screen and (min-width: 760px){
-            .container {
-                width: 760px;
-            }
-            
-                
-                
-
+    .list {
+        display: flex;
 
 
 
-        }
 
-        /* ==== DESKTOP STYLES ==== */
+    }
 
-        @media screen and (min-width: 1200px){
-            .container {
-                width: 1200px;
-            }
-        }
 
+    .list a {
+        margin-right: 2rem;
+    }
+
+
+    #search {
+        width: 70%;
+    }
+
+    .home a {
+        padding: 1rem 2rem;
+        margin-left: auto;
+
+
+    }
+
+    .welcome {
+        margin-left: 12rem;
+        max-width: 100%;
+        margin-right: 12rem;
+        padding-left: 0.1rem;
+        padding-right: 3.3rem;
+
+
+
+
+
+    }
+
+    .intro {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .welcome p {
+        margin-left: auto;
+    }
+
+    .welcome button {
+        margin-left: 1rem;
+    }
+
+    .about {
+        background-color: #ffe6ac;
+        max-width:1200px;
+
+        display: grid; /*grid used*/
+        grid-template-columns: 10% 45% 45%; /*columns specifies width wise*/
+
+    }
+
+
+    .about h2 {
+        margin-top: 0;
+    }
+
+    .fgrid .market {
+        padding: 0;
+
+
+
+    }
+
+    .fgrid .market img {
+
+        width: 100%;
+
+
+    }
+
+
+
+
+    .grid1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /*2 columnns of equal widths*/
+        margin-left: 0.5rem;
+
+        grid-column-gap: 0.5rem; /*gap between grid columns*/
+
+
+
+
+    }
+
+    .grid2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 0.5rem;
+
+        grid-column-gap: 0.5rem;
+
+
+
+
+    }
+
+
+
+
+
+    .grid1 .digital {
+        margin-bottom: 1rem;
+
+
+    }
+
+    .grid1 .digital h2 {
+        margin-top: 1rem;
+
+
+    }
+
+    .grid1 .market h2 {
+        margin-top: 1rem;
+        font-size: 34px;
+
+
+    }
+
+    .grid1 .market p {
+        padding-right: 2rem;
+        font-size: 14px;
+
+
+    }
+
+    .grid2 .video h2 {
+        margin-top: 1rem;
+    }
+
+    .grid2 .web h2 {
+        margin-top: 1rem;
+        font-size: 39px;
+    }
+
+    .grid2 .print h2 {
+        margin-top: 1rem;
+    }
+
+    .bteam {
+        display: flex;
+        margin-left: 70px;
+        width: 60rem;
+        height: 400px;
+
+
+    }
+
+    .vision {
+
+        margin-right: 3rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .vision h2 {
+        font-size: 30px;
+    }
+
+    .bteam img {
+        width: 50%;
+    }
+
+    .cteam img {
+        width: 50%;
+    }
+
+    .team h2 {
+        padding-left: 4rem;
+    }
+
+    .cteam {
+        display: flex;
+        flex-direction: row-reverse; /*flex direction is reversed*/
+        width: 60rem;
+        margin-left: 70px;
+    }
+
+    .contact {
+        width: 100%;
+
+    }
+
+    /* .formm { 
+        width: auto;
+    }
+    */
+
+    .lastgrid {
+        display: grid;
+        grid-template-columns: 600px 600px;
+        grid-template-rows: 100px 1fr;
+        max-width:1200px;
+
+
+    }
+    .contact{
+        grid-row:1;
+        grid-column: 1/3;
+    }
+    .msg{
+        grid-column: 1;
+        grid-row:2;
+        
+
+    }
+    
+    #fullname, #email, #message{
+        width:calc(100% - 1rem);
+       
+    }
+    .map{
+        grid-column:2;
+        grid-row:2;
+    }
+    .hrs{
+        grid-row:3;
+        grid-column: 1/3;
+        width:1200px;
+        max-width:1200px;
+        
+        
+
+    
+    }
+    .max{
+        width:1200px;
+        margin:auto;
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+/* ==== DESKTOP STYLES ==== */
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1200px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
